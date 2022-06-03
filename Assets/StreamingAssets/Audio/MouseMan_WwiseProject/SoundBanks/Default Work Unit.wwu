@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3C17FA1F-408D-4B84-B4AE-711BF752F49C}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{3C17FA1F-408D-4B84-B4AE-711BF752F49C}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{C3BD9850-B048-4AF2-B05E-F0B6E2605831}">
+					<ObjectInclusionList>
+						<ObjectRef Name="testFire" ID="{0A30CBEE-25C4-4037-9BA3-A05198D13E39}" WorkUnitID="{D06476DF-C119-4853-B5F9-57595FD50FD2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="CatMeow3" ID="{2352445C-BBD8-412C-8F60-C9DF666B4C02}" WorkUnitID="{14D3717C-9910-4642-926F-DB7D05DA8327}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fight_Music_Playlist" ID="{383B6CD1-DADC-41B2-A310-102708E633FE}" WorkUnitID="{15606126-FFB3-472D-8CE9-5488561330A9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="cat_death2" ID="{456A396F-6130-41C6-ACA4-D529BBCBAF3D}" WorkUnitID="{D06476DF-C119-4853-B5F9-57595FD50FD2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="siren" ID="{C961A4BB-451A-42FE-B2E0-0F049562F7EA}" WorkUnitID="{D06476DF-C119-4853-B5F9-57595FD50FD2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Menu" ID="{CF19439F-2804-435D-97B1-B12D7BCE78B6}" WorkUnitID="{15606126-FFB3-472D-8CE9-5488561330A9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Intro Beg" ID="{F3E834CB-A18B-43EB-8C90-73E00CC19A13}" WorkUnitID="{15606126-FFB3-472D-8CE9-5488561330A9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="squeak1" ID="{5C2469AC-08D1-453E-88ED-DE861B9406DF}" WorkUnitID="{D06476DF-C119-4853-B5F9-57595FD50FD2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music" ID="{7D7472E4-D240-4568-BC31-1348DA5A77F9}" WorkUnitID="{3152DBA1-8FBD-4ED7-8188-4733EEAA8473}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Menu_Music_Playlist" ID="{A44A796F-6989-457E-A8AB-C43896F8D2FD}" WorkUnitID="{15606126-FFB3-472D-8CE9-5488561330A9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="menu_select" ID="{0D70302F-5BA8-45E0-8813-83951E03F0CA}" WorkUnitID="{D06476DF-C119-4853-B5F9-57595FD50FD2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="wall_destroy" ID="{8030D8C9-7CB5-45F8-AFF1-BAE87F174164}" WorkUnitID="{D06476DF-C119-4853-B5F9-57595FD50FD2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="cat_death1" ID="{2257A955-D015-4625-8A3B-B4DC1E2FF33B}" WorkUnitID="{D06476DF-C119-4853-B5F9-57595FD50FD2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_On" ID="{CF52CF16-BB58-46BE-9747-97C97AA507BD}" WorkUnitID="{D06476DF-C119-4853-B5F9-57595FD50FD2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Game_Start" ID="{A7334D86-213A-4727-ACC8-2AE6CFD9BAA7}" WorkUnitID="{D06476DF-C119-4853-B5F9-57595FD50FD2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="turret_fire" ID="{8E597ADE-B1BB-4754-BB82-1C36F52828A3}" WorkUnitID="{D06476DF-C119-4853-B5F9-57595FD50FD2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="pc_dash" ID="{18695FBF-83FD-47FC-8871-0234A67D9D76}" WorkUnitID="{D06476DF-C119-4853-B5F9-57595FD50FD2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="squeak3" ID="{BA6F9838-C82A-4826-8336-06EEC5BEA6C7}" WorkUnitID="{D06476DF-C119-4853-B5F9-57595FD50FD2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Intro_Beg" ID="{D27B1E90-1C1C-48BE-BB76-C58CFE3B7D4B}" WorkUnitID="{15606126-FFB3-472D-8CE9-5488561330A9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="step2" ID="{7FE63820-4035-48DF-84BE-27CAA0D7683C}" WorkUnitID="{D06476DF-C119-4853-B5F9-57595FD50FD2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fight_Music" ID="{8DC512F8-B445-48F0-AFC2-2168124863E1}" WorkUnitID="{D06476DF-C119-4853-B5F9-57595FD50FD2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="cat_step" ID="{70E81C72-657D-4981-87FB-696868016037}" WorkUnitID="{D06476DF-C119-4853-B5F9-57595FD50FD2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fight" ID="{88AB248B-A40B-4AB7-99B1-BD70AF99BD5A}" WorkUnitID="{15606126-FFB3-472D-8CE9-5488561330A9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="pc_fire" ID="{7EA6A580-0C04-4ACC-B7F4-8B23255D28F9}" WorkUnitID="{D06476DF-C119-4853-B5F9-57595FD50FD2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayButton" ID="{B3803307-B195-4AE5-B954-3593F22AEDB1}" WorkUnitID="{15606126-FFB3-472D-8CE9-5488561330A9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music" ID="{461978A1-1036-4C41-8897-8C7949530AC8}" WorkUnitID="{15606126-FFB3-472D-8CE9-5488561330A9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Force" ID="{694D7718-4A35-4CED-8471-EC0E3880A6F8}" WorkUnitID="{D06476DF-C119-4853-B5F9-57595FD50FD2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Menu_Loop" ID="{752D7A99-1DA0-4D36-BC5E-51A0CB2FAF9A}" WorkUnitID="{15606126-FFB3-472D-8CE9-5488561330A9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="step1" ID="{A07E8BBC-6280-4D59-B6C6-04FA66D6DBAC}" WorkUnitID="{D06476DF-C119-4853-B5F9-57595FD50FD2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop" ID="{62F3898D-BC13-4E2C-BC2A-459F32D914D0}" WorkUnitID="{D06476DF-C119-4853-B5F9-57595FD50FD2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="CombatMusic" ID="{D32BDB28-F5C0-4E45-AE72-4C8A087663A6}" WorkUnitID="{3152DBA1-8FBD-4ED7-8188-4733EEAA8473}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music" ID="{3152DBA1-8FBD-4ED7-8188-4733EEAA8473}" WorkUnitID="{3152DBA1-8FBD-4ED7-8188-4733EEAA8473}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="footstep2" ID="{39BC5A04-11D3-4EE5-A048-AA718935C876}" WorkUnitID="{14D3717C-9910-4642-926F-DB7D05DA8327}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="siren2" ID="{2152D7D3-DBDC-4F15-B4EC-E2C99FD9EBD2}" WorkUnitID="{14D3717C-9910-4642-926F-DB7D05DA8327}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="menu_hover" ID="{1F594CBF-7830-4F65-A852-B554CA31EA87}" WorkUnitID="{D06476DF-C119-4853-B5F9-57595FD50FD2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="CatPurr1" ID="{C31CAFAD-40FD-4F79-87E0-3E6FC0B557D6}" WorkUnitID="{14D3717C-9910-4642-926F-DB7D05DA8327}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="squeak2" ID="{33944C08-FE7D-4F7B-A17B-596679208535}" WorkUnitID="{D06476DF-C119-4853-B5F9-57595FD50FD2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_Off" ID="{3561A56A-DC8C-4FB0-8D01-579A9302DBAD}" WorkUnitID="{D06476DF-C119-4853-B5F9-57595FD50FD2}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

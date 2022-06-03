@@ -1,0 +1,74 @@
+Event	ID	Name			Wwise Object Path	Notes
+	309439191	menu_hover			\Default Work Unit\menu_hover	
+	733168346	Game_Start			\Default Work Unit\Game_Start	
+	734002816	siren			\Default Work Unit\siren	
+	788884573	Stop			\Default Work Unit\Stop	
+	1271964801	pc_dash			\Default Work Unit\pc_dash	
+	1597875122	siren2			\Default Work Unit\siren2	
+	1718617278	steps			\Default Work Unit\steps	
+	1718617340	step1			\Default Work Unit\step1	
+	1718617343	step2			\Default Work Unit\step2	
+	1726920360	cat_step			\Default Work Unit\cat_step	
+	1788912989	testFire			\Default Work Unit\testFire	
+	1929840817	Fight_Music			\Default Work Unit\Fight_Music	
+	2049729833	pc_fire			\Default Work Unit\pc_fire	
+	2132750258	turret_fire			\Default Work Unit\turret_fire	
+	2274397818	wall_destroy			\Default Work Unit\wall_destroy	
+	2795543126	Music_On			\Default Work Unit\Music_On	
+	2899509660	Music_Off			\Default Work Unit\Music_Off	
+	3023010813	StopRetry			\Default Work Unit\StopRetry	
+	3185863801	cat_death1			\Default Work Unit\cat_death1	
+	3185863802	cat_death2			\Default Work Unit\cat_death2	
+	3185863803	cat_death3			\Default Work Unit\cat_death3	
+	3636054496	cat_purr1			\Default Work Unit\cat_purr1	
+	3733692670	CombatMusic			\Music\CombatMusic	
+	3991942870	Music			\Music\Music	
+	4183355984	squeak1			\Default Work Unit\squeak1	
+	4183355986	squeak3			\Default Work Unit\squeak3	
+	4183355987	squeak2			\Default Work Unit\squeak2	
+	4203375351	menu_select			\Default Work Unit\menu_select	
+	4240233774	Force			\Default Work Unit\Force	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3890691062	FightMusic			\Default Work Unit\FightMusic	
+	4055567060	Menu_Music			\Default Work Unit\Menu_Music	
+
+State	ID	Name	State Group			Notes
+	748895195	None	FightMusic			
+	4264741179	Fighting_music	FightMusic			
+	748895195	None	Menu_Music			
+	3890691062	FightMusic	Menu_Music			
+	4058101365	GameStart	Menu_Music			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	524169114	GameStart	Menu_Music	\Interactive Music Hierarchy\Default Work Unit\Music\Menu_Music_Playlist		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2346531308	MusicVolume			\Default Work Unit\Volume\MusicVolume	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	10119264	CatStep	C:\Users\Jackw\Desktop\MouseMan\Assets\StreamingAssets\Audio\MouseMan_WwiseProject\.cache\Mac\SFX\CatStep_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\CatStep		101568
+	27091542	dash	C:\Users\Jackw\Desktop\MouseMan\Assets\StreamingAssets\Audio\MouseMan_WwiseProject\.cache\Mac\SFX\dash_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\dash		85696
+	28283594	Squeak1	C:\Users\Jackw\Desktop\MouseMan\Assets\StreamingAssets\Audio\MouseMan_WwiseProject\.cache\Mac\SFX\Squeak1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Squeak1		13346
+	151007714	CatMeow3	C:\Users\Jackw\Desktop\MouseMan\Assets\StreamingAssets\Audio\MouseMan_WwiseProject\.cache\Mac\SFX\CatMeow3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\CatMeow3		98326
+	240229489	CatPurr1	C:\Users\Jackw\Desktop\MouseMan\Assets\StreamingAssets\Audio\MouseMan_WwiseProject\.cache\Mac\SFX\CatPurr1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\CatPurr1		150848
+	242860125	WallDestruction	C:\Users\Jackw\Desktop\MouseMan\Assets\StreamingAssets\Audio\MouseMan_WwiseProject\.cache\Mac\SFX\WallDestruction_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallDestruction		735808
+	255585273	Fight_Loop	C:\Users\Jackw\Desktop\MouseMan\Assets\StreamingAssets\Audio\MouseMan_WwiseProject\.cache\Mac\SFX\Loop2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Fight_Music_Playlist\Fight\Fight_Loop		14982476
+	315820070	siren3	C:\Users\Jackw\Desktop\MouseMan\Assets\StreamingAssets\Audio\MouseMan_WwiseProject\.cache\Mac\SFX\siren3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\siren3		470976
+	343970942	EvilCatMeow1	C:\Users\Jackw\Desktop\MouseMan\Assets\StreamingAssets\Audio\MouseMan_WwiseProject\.cache\Mac\SFX\EvilCatMeow1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\EvilCatMeow1		55488
+	358713300	ShorterGunshotBass	C:\Users\Jackw\Desktop\MouseMan\Assets\StreamingAssets\Audio\MouseMan_WwiseProject\.cache\Mac\SFX\ShorterGunshotBass_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ShorterGunshotBass		580416
+	366432066	footstep1	C:\Users\Jackw\Desktop\MouseMan\Assets\StreamingAssets\Audio\MouseMan_WwiseProject\.cache\Mac\SFX\footstep1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\footstep1		47680
+	450353852	MenuSelect	C:\Users\Jackw\Desktop\MouseMan\Assets\StreamingAssets\Audio\MouseMan_WwiseProject\.cache\Mac\SFX\MenuSelect_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MenuSelect		109376
+	480033119	Intro_Beg	C:\Users\Jackw\Desktop\MouseMan\Assets\StreamingAssets\Audio\MouseMan_WwiseProject\.cache\Mac\SFX\Intro Beg_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Menu_Music_Playlist\Intro Beg\Intro_Beg		2469664
+	487528616	Squeak3	C:\Users\Jackw\Desktop\MouseMan\Assets\StreamingAssets\Audio\MouseMan_WwiseProject\.cache\Mac\SFX\Squeak3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Squeak3		18496
+	494492895	footstep2	C:\Users\Jackw\Desktop\MouseMan\Assets\StreamingAssets\Audio\MouseMan_WwiseProject\.cache\Mac\SFX\footstep2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\footstep2		61760
+	668924455	siren2	C:\Users\Jackw\Desktop\MouseMan\Assets\StreamingAssets\Audio\MouseMan_WwiseProject\.cache\Mac\SFX\siren2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\siren2		419008
+	672101028	Squeak2	C:\Users\Jackw\Desktop\MouseMan\Assets\StreamingAssets\Audio\MouseMan_WwiseProject\.cache\Mac\SFX\Squeak2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Squeak2		28432
+	681540098	gunshotBass	C:\Users\Jackw\Desktop\MouseMan\Assets\StreamingAssets\Audio\MouseMan_WwiseProject\.cache\Mac\SFX\gunshotBass_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\gunshotBass		13446
+	711143327	EvilCatMeow2	C:\Users\Jackw\Desktop\MouseMan\Assets\StreamingAssets\Audio\MouseMan_WwiseProject\.cache\Mac\SFX\EvilCatMeow2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\EvilCatMeow2		53056
+	774530598	ShortGunshotBass	C:\Users\Jackw\Desktop\MouseMan\Assets\StreamingAssets\Audio\MouseMan_WwiseProject\.cache\Mac\SFX\ShortGunshotBass_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ShortGunshotBass		130474
+	874194272	Force	C:\Users\Jackw\Desktop\MouseMan\Assets\StreamingAssets\Audio\MouseMan_WwiseProject\.cache\Mac\SFX\Force_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\New Actor-Mixer\Force		13959232
+	950981209	PlayButton	C:\Users\Jackw\Desktop\MouseMan\Assets\StreamingAssets\Audio\MouseMan_WwiseProject\.cache\Mac\SFX\PlayButton_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Fight_Music_Playlist\PlayButton\PlayButton		26077588
+	972149543	Menu_Loop	C:\Users\Jackw\Desktop\MouseMan\Assets\StreamingAssets\Audio\MouseMan_WwiseProject\.cache\Mac\SFX\Loop1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Menu_Music_Playlist\Menu\Menu_Loop		882064
+	1019340592	MenuHover	C:\Users\Jackw\Desktop\MouseMan\Assets\StreamingAssets\Audio\MouseMan_WwiseProject\.cache\Mac\SFX\MenuHover_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MenuHover		109632
+

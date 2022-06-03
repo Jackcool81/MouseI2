@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8B4CA49A-F442-4749-BAF4-79D8553EA47E}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{8B4CA49A-F442-4749-BAF4-79D8553EA47E}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Menu_Music" ID="{04B48E5D-10C7-4A5B-B974-76A6FEA203AB}">
+					<ChildrenList>
+						<State Name="None" ID="{9A4917FD-12AC-42F2-8E33-02DCA6B2EFC9}"/>
+						<State Name="GameStart" ID="{6E3EE25C-FD1E-43E8-8EA9-09B81B3B8DF6}"/>
+						<State Name="FightMusic" ID="{553F5D84-9E0D-40B7-A49C-9F6165779AC5}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="FightMusic" ID="{7A03771F-6B82-4FBE-AA13-CD69830581F7}">
+					<ChildrenList>
+						<State Name="None" ID="{6CCC8EB9-F5AC-4E51-9326-12D29580E396}"/>
+						<State Name="Fighting_music" ID="{6FBE0FBF-745F-49C2-86C0-5131AA0FC7CC}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

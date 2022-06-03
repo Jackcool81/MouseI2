@@ -1,0 +1,25 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	3890691062	FightMusic			\Default Work Unit\FightMusic	
+	4055567060	Menu_Music			\Default Work Unit\Menu_Music	
+
+State	ID	Name	State Group			Notes
+	748895195	None	FightMusic			
+	4264741179	Fighting_music	FightMusic			
+	748895195	None	Menu_Music			
+	3890691062	FightMusic	Menu_Music			
+	4058101365	GameStart	Menu_Music			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2346531308	MusicVolume			\Default Work Unit\Volume\MusicVolume	
+	2918011349	MasterVolume			\Default Work Unit\Volume\MasterVolume	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	188978968	Forcer			\Default Work Unit\Master Audio Bus\Forcer	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3922907557	Enviromental			\Default Work Unit\Master Audio Bus\Enviromental	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

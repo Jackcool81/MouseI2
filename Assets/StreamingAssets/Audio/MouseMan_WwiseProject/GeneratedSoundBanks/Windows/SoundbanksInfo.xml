@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Jackw\Desktop\MouseMan\Assets\StreamingAssets\Audio\MouseMan_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Jackw\Desktop\MouseMan\Assets\StreamingAssets\Audio\MouseMan_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Jackw\Desktop\MouseMan\Assets\StreamingAssets\Audio\MouseMan_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Jackw\Desktop\MouseMan\Assets\StreamingAssets\Audio\MouseMan_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2436384016">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<GameParameters>
+				<GameParameter Id="2346531308" Name="MusicVolume" ObjectPath="\Game Parameters\Default Work Unit\Volume\MusicVolume"/>
+				<GameParameter Id="2918011349" Name="MasterVolume" ObjectPath="\Game Parameters\Default Work Unit\Volume\MasterVolume"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="645940195">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3185863801" Name="cat_death1" ObjectPath="\Events\Default Work Unit\cat_death1" DurationType="OneShot" DurationMin="0.62839" DurationMax="0.62839">
+					<IncludedMemoryFiles>
+						<File Id="343970942" Language="SFX">
+							<ShortName>EvilCatMeow1.wav</ShortName>
+							<Path>SFX\EvilCatMeow1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3185863802" Name="cat_death2" ObjectPath="\Events\Default Work Unit\cat_death2" DurationType="OneShot" DurationMin="0.600816" DurationMax="0.600816">
+					<IncludedMemoryFiles>
+						<File Id="711143327" Language="SFX">
+							<ShortName>EvilCatMeow2.wav</ShortName>
+							<Path>SFX\EvilCatMeow2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3185863803" Name="cat_death3" ObjectPath="\Events\Default Work Unit\cat_death3" DurationType="OneShot" DurationMin="1.114082" DurationMax="1.114082"/>
+				<Event Id="3636054496" Name="cat_purr1" ObjectPath="\Events\Default Work Unit\cat_purr1" DurationType="OneShot" DurationMin="1.709569" DurationMax="1.709569"/>
+				<Event Id="1726920360" Name="cat_step" ObjectPath="\Events\Default Work Unit\cat_step" DurationType="OneShot" DurationMin="1.150839" DurationMax="1.150839">
+					<IncludedMemoryFiles>
+						<File Id="10119264" Language="SFX">
+							<ShortName>CatStep.wav</ShortName>
+							<Path>SFX\CatStep_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3733692670" Name="CombatMusic" ObjectPath="\Events\Music\CombatMusic" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1929840817" Name="Fight_Music" ObjectPath="\Events\Default Work Unit\Fight_Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="255585273" Language="SFX">
+							<ShortName>Loop2.wav</ShortName>
+							<Path>SFX\Loop2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="950981209" Language="SFX">
+							<ShortName>PlayButton.wav</ShortName>
+							<Path>SFX\PlayButton_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4240233774" Name="Force" ObjectPath="\Events\Default Work Unit\Force" DurationType="OneShot" DurationMin="158.267212" DurationMax="158.267212">
+					<IncludedMemoryFiles>
+						<File Id="874194272" Language="SFX">
+							<ShortName>Force.wav</ShortName>
+							<Path>SFX\Force_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="733168346" Name="Game_Start" ObjectPath="\Events\Default Work Unit\Game_Start" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="4058101365" Name="GameStart" ObjectPath="\States\Default Work Unit\Menu_Music\GameStart"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="309439191" Name="menu_hover" ObjectPath="\Events\Default Work Unit\menu_hover" DurationType="OneShot" DurationMin="1.242268" DurationMax="1.242268">
+					<IncludedMemoryFiles>
+						<File Id="1019340592" Language="SFX">
+							<ShortName>MenuHover.wav</ShortName>
+							<Path>SFX\MenuHover_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4203375351" Name="menu_select" ObjectPath="\Events\Default Work Unit\menu_select" DurationType="OneShot" DurationMin="1.239365" DurationMax="1.239365">
+					<IncludedMemoryFiles>
+						<File Id="450353852" Language="SFX">
+							<ShortName>MenuSelect.wav</ShortName>
+							<Path>SFX\MenuSelect_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Music\Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="255585273" Language="SFX">
+							<ShortName>Loop2.wav</ShortName>
+							<Path>SFX\Loop2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="480033119" Language="SFX">
+							<ShortName>Intro Beg.wav</ShortName>
+							<Path>SFX\Intro Beg_D79FB2B7.wem</Path>
+						</File>
+						<File Id="950981209" Language="SFX">
+							<ShortName>PlayButton.wav</ShortName>
+							<Path>SFX\PlayButton_D79FB2B7.wem</Path>
+						</File>
+						<File Id="972149543" Language="SFX">
+							<ShortName>Loop1.wav</ShortName>
+							<Path>SFX\Loop1_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{6E3EE25C-FD1E-43E8-8EA9-09B81B3B8DF6}">
+							<Children>
+								<SwitchContainer SwitchValue="{7A03771F-6B82-4FBE-AA13-CD69830581F7}">
+									<Media>
+										<File Id="480033119"/>
+										<File Id="972149543"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{04B48E5D-10C7-4A5B-B974-76A6FEA203AB}">
+							<Children>
+								<SwitchContainer SwitchValue="{7A03771F-6B82-4FBE-AA13-CD69830581F7}">
+									<Media>
+										<File Id="255585273"/>
+										<File Id="950981209"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{6E3EE25C-FD1E-43E8-8EA9-09B81B3B8DF6}">
+							<Children>
+								<SwitchContainer SwitchValue="{6FBE0FBF-745F-49C2-86C0-5131AA0FC7CC}">
+									<Media>
+										<File Id="255585273"/>
+										<File Id="950981209"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2899509660" Name="Music_Off" ObjectPath="\Events\Default Work Unit\Music_Off" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2795543126" Name="Music_On" ObjectPath="\Events\Default Work Unit\Music_On" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="480033119" Language="SFX">
+							<ShortName>Intro Beg.wav</ShortName>
+							<Path>SFX\Intro Beg_D79FB2B7.wem</Path>
+						</File>
+						<File Id="972149543" Language="SFX">
+							<ShortName>Loop1.wav</ShortName>
+							<Path>SFX\Loop1_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1271964801" Name="pc_dash" ObjectPath="\Events\Default Work Unit\pc_dash" DurationType="OneShot" DurationMin="0.970884" DurationMax="0.970884">
+					<IncludedMemoryFiles>
+						<File Id="27091542" Language="SFX">
+							<ShortName>dash.wav</ShortName>
+							<Path>SFX\dash_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2049729833" Name="pc_fire" ObjectPath="\Events\Default Work Unit\pc_fire" DurationType="OneShot" DurationMin="0.151723" DurationMax="0.151723">
+					<IncludedMemoryFiles>
+						<File Id="681540098" Language="SFX">
+							<ShortName>gunshotBass.wav</ShortName>
+							<Path>SFX\gunshotBass_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="734002816" Name="siren" ObjectPath="\Events\Default Work Unit\siren" DurationType="OneShot" DurationMin="5.339139" DurationMax="5.339139">
+					<IncludedMemoryFiles>
+						<File Id="315820070" Language="SFX">
+							<ShortName>siren3.wav</ShortName>
+							<Path>SFX\siren3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1597875122" Name="siren2" ObjectPath="\Events\Default Work Unit\siren2" DurationType="OneShot" DurationMin="4.749932" DurationMax="4.749932"/>
+				<Event Id="4183355984" Name="squeak1" ObjectPath="\Events\Default Work Unit\squeak1" DurationType="OneShot" DurationMin="0.138354" DurationMax="0.138354">
+					<IncludedMemoryFiles>
+						<File Id="28283594" Language="SFX">
+							<ShortName>Squeak1.wav</ShortName>
+							<Path>SFX\Squeak1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4183355987" Name="squeak2" ObjectPath="\Events\Default Work Unit\squeak2" DurationType="OneShot" DurationMin="0.321633" DurationMax="0.321633">
+					<IncludedMemoryFiles>
+						<File Id="672101028" Language="SFX">
+							<ShortName>Squeak2.wav</ShortName>
+							<Path>SFX\Squeak2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4183355986" Name="squeak3" ObjectPath="\Events\Default Work Unit\squeak3" DurationType="OneShot" DurationMin="0.20898" DurationMax="0.20898">
+					<IncludedMemoryFiles>
+						<File Id="487528616" Language="SFX">
+							<ShortName>Squeak3.wav</ShortName>
+							<Path>SFX\Squeak3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1718617340" Name="step1" ObjectPath="\Events\Default Work Unit\step1" DurationType="OneShot" DurationMin="0.539864" DurationMax="0.539864">
+					<IncludedMemoryFiles>
+						<File Id="366432066" Language="SFX">
+							<ShortName>footstep1.wav</ShortName>
+							<Path>SFX\footstep1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1718617343" Name="step2" ObjectPath="\Events\Default Work Unit\step2" DurationType="OneShot" DurationMin="0.699501" DurationMax="0.699501">
+					<IncludedMemoryFiles>
+						<File Id="494492895" Language="SFX">
+							<ShortName>footstep2.wav</ShortName>
+							<Path>SFX\footstep2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1718617278" Name="steps" ObjectPath="\Events\Default Work Unit\steps" DurationType="OneShot" DurationMin="0.699501" DurationMax="0.699501"/>
+				<Event Id="788884573" Name="Stop" ObjectPath="\Events\Default Work Unit\Stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3023010813" Name="StopRetry" ObjectPath="\Events\Default Work Unit\StopRetry" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1788912989" Name="testFire" ObjectPath="\Events\Default Work Unit\testFire" DurationType="OneShot" DurationMin="6.579955" DurationMax="6.579955">
+					<IncludedMemoryFiles>
+						<File Id="358713300" Language="SFX">
+							<ShortName>ShorterGunshotBass.wav</ShortName>
+							<Path>SFX\ShorterGunshotBass_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2132750258" Name="turret_fire" ObjectPath="\Events\Default Work Unit\turret_fire" DurationType="OneShot" DurationMin="1.478571" DurationMax="1.478571">
+					<IncludedMemoryFiles>
+						<File Id="774530598" Language="SFX">
+							<ShortName>ShortGunshotBass.wav</ShortName>
+							<Path>SFX\ShortGunshotBass_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2274397818" Name="wall_destroy" ObjectPath="\Events\Default Work Unit\wall_destroy" DurationType="OneShot" DurationMin="8.341768" DurationMax="8.341768">
+					<IncludedMemoryFiles>
+						<File Id="242860125" Language="SFX">
+							<ShortName>WallDestruction.wav</ShortName>
+							<Path>SFX\WallDestruction_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="151007714" Language="SFX">
+					<ShortName>CatMeow3.wav</ShortName>
+					<Path>SFX\CatMeow3_10C4C929.wem</Path>
+				</File>
+				<File Id="240229489" Language="SFX">
+					<ShortName>CatPurr1.wav</ShortName>
+					<Path>SFX\CatPurr1_10C4C929.wem</Path>
+				</File>
+				<File Id="255585273" Language="SFX">
+					<ShortName>Loop2.wav</ShortName>
+					<Path>SFX\Loop2_D79FB2B7.wem</Path>
+				</File>
+				<File Id="480033119" Language="SFX">
+					<ShortName>Intro Beg.wav</ShortName>
+					<Path>SFX\Intro Beg_D79FB2B7.wem</Path>
+				</File>
+				<File Id="494492895" Language="SFX">
+					<ShortName>footstep2.wav</ShortName>
+					<Path>SFX\footstep2_10C4C929.wem</Path>
+				</File>
+				<File Id="668924455" Language="SFX">
+					<ShortName>siren2.wav</ShortName>
+					<Path>SFX\siren2_10C4C929.wem</Path>
+				</File>
+				<File Id="950981209" Language="SFX">
+					<ShortName>PlayButton.wav</ShortName>
+					<Path>SFX\PlayButton_D79FB2B7.wem</Path>
+				</File>
+				<File Id="972149543" Language="SFX">
+					<ShortName>Loop1.wav</ShortName>
+					<Path>SFX\Loop1_D79FB2B7.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<GameParameters>
+				<GameParameter Id="2346531308" Name="MusicVolume" ObjectPath="\Game Parameters\Default Work Unit\Volume\MusicVolume"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="3890691062" Name="FightMusic" ObjectPath="\States\Default Work Unit\FightMusic" GUID="{7A03771F-6B82-4FBE-AA13-CD69830581F7}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\FightMusic\None" GUID="{6CCC8EB9-F5AC-4E51-9326-12D29580E396}"/>
+						<State Id="4264741179" Name="Fighting_music" ObjectPath="\States\Default Work Unit\FightMusic\Fighting_music" GUID="{6FBE0FBF-745F-49C2-86C0-5131AA0FC7CC}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="4055567060" Name="Menu_Music" ObjectPath="\States\Default Work Unit\Menu_Music" GUID="{04B48E5D-10C7-4A5B-B974-76A6FEA203AB}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Menu_Music\None" GUID="{9A4917FD-12AC-42F2-8E33-02DCA6B2EFC9}"/>
+						<State Id="4058101365" Name="GameStart" ObjectPath="\States\Default Work Unit\Menu_Music\GameStart" GUID="{6E3EE25C-FD1E-43E8-8EA9-09B81B3B8DF6}"/>
+						<State Id="3890691062" Name="FightMusic" ObjectPath="\States\Default Work Unit\Menu_Music\FightMusic" GUID="{553F5D84-9E0D-40B7-A49C-9F6165779AC5}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="4058101365" Name="GameStart" ObjectPath="\States\Default Work Unit\Menu_Music\GameStart" GUID="{6E3EE25C-FD1E-43E8-8EA9-09B81B3B8DF6}">
+					<States/>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
