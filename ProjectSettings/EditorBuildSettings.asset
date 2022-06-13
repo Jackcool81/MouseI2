@@ -9,6 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 6d1d195e095b3f0488f6f720444649ba
   - enabled: 1
+    path: Assets/Scenes/ShipHub.unity
+    guid: 9c62262128e468949b021684153959c7
+  - enabled: 1
     path: Assets/Scenes/Demo.unity
     guid: 232dffae6cd5d044a8e56520c3d1c033
+  - enabled: 1
+    path: Assets/Scenes/CatAttack.unity
+    guid: 5a4abbf0281c8c84bbbd9d6406d291f3
   m_configObjects: {}

@@ -10,9 +10,11 @@ public class PlayerMovement : MonoBehaviour {
 	public float runSpeed = 40f;
 	public GameObject player;
 
-	float horizontalMove = 0f;
+	public float horizontalMove = 0f;
 	bool jump = false;
 	bool dash = false;
+
+	public GameObject questLog; 
 
 	//bool dashAxis = false;
 	
@@ -32,21 +34,18 @@ public class PlayerMovement : MonoBehaviour {
 		{
 			dash = true;
 		}
-
-		/*if (Input.GetAxisRaw("Dash") == 1 || Input.GetAxisRaw("Dash") == -1) //RT in Unity 2017 = -1, RT in Unity 2019 = 1
-		{
-			if (dashAxis == false)
-			{
-				dashAxis = true;
-				dash = true;
-			}
-		}
-		else
-		{
-			dashAxis = false;
-		}
-		*/
-
+		if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            if (questLog.activeSelf == false)
+            {
+                questLog.SetActive(true);
+            }
+            else
+            {
+                questLog.SetActive(false);
+            }
+//Spep
+        }
 
 	}
 
