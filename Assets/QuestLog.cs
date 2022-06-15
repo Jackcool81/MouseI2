@@ -26,18 +26,15 @@ public class QuestLog : MonoBehaviour
     public void description() //When called, will display whatever text we want to the description
     {
         text.SetActive(true);
-        //Debug.Log(EventSystem.current.currentSelectedGameObject.name);
         foreach (Quest i in quests)
         {
             if (i.QuestTitle == EventSystem.current.currentSelectedGameObject.GetComponentInChildren<Text>().text)
             {
                 text.GetComponent<TextMeshProUGUI>().text = i.QuestDescription;
-                //textDisplay.text = i.QuestDescription;
                 break;
             }
             
         }
-        //textDisplay.gameObject.SetActive(true);
         
     }
 }
