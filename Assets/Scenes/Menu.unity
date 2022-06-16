@@ -319,9 +319,9 @@ GameObject:
   m_Component:
   - component: {fileID: 132431360}
   - component: {fileID: 132431359}
-  - component: {fileID: 132431361}
   - component: {fileID: 132431362}
   - component: {fileID: 132431358}
+  - component: {fileID: 132431361}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -413,7 +413,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camera: {fileID: 132431357}
-  speed: 0.001
 --- !u!114 &132431362
 MonoBehaviour:
   m_ObjectHideFlags: 0

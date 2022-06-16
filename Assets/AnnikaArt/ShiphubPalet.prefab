@@ -1537,7 +1537,7 @@ GameObject:
   - component: {fileID: 5996516573701049567}
   - component: {fileID: 7339175661943237199}
   m_Layer: 31
-  m_Name: Shiphub
+  m_Name: ShiphubPalet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

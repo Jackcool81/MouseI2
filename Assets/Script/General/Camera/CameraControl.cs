@@ -8,7 +8,7 @@ public class CameraControl : MonoBehaviour
     private float x;
     private float y;
     private Vector3 rotateValue;
-    public float speed = .0000001f;
+    private float speed = 0.003f;
 
     // Update is called once per frame
     void Update()
