@@ -2,13 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class CountdownTimer : MonoBehaviour
 {   
     //IMPORTANT
     //Amount of time this scene's timer allows the player, in seconds
-    private int countdownFrom = 315;
-
+    //private int countdownFrom = 315;
+    private int countdownFrom = 120;
     //text object that the timer will write to, to display the time remaining
     public Text timertext;
     //values the timer uses to display the correct minutes and seconds
@@ -32,6 +34,9 @@ public class CountdownTimer : MonoBehaviour
         else
         {
             timertext.text = minutes + ":" + seconds;  
+        }
+        if (minutes < 1) {
+            Debug.Log("Head Back to Ship Now");
         }
         
     }
@@ -67,6 +72,6 @@ public class CountdownTimer : MonoBehaviour
     //please replace this function with what we need, probably something like loading the ship scene
     private void excitingThing()
     {
-        print("timer finished");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

@@ -192,7 +192,7 @@ public class CharacterController2D : MonoBehaviour
 			life -= damage;
 			Vector2 damageDir = Vector3.Normalize(transform.position - position) * 10f ;
 			m_Rigidbody2D.velocity = Vector2.zero;
-			AkSoundEngine.PostEvent("Squeak1", player);
+			// AkSoundEngine.PostEvent("Squeak1", player);
 			m_Rigidbody2D.AddForce(damageDir * 2);
 			if (life <= 0)
 			{
@@ -219,7 +219,7 @@ public class CharacterController2D : MonoBehaviour
 	{
 		animator.SetBool("IsDashing", true);
 		particleJumpUp.Play();
-		AkSoundEngine.PostEvent("pc_dash", player); //must include specfic name of even
+		// AkSoundEngine.PostEvent("pc_dash", player); //must include specfic name of even
 		isDashing = true;
 		canDash = false;
 		yield return new WaitForSeconds(0.4f);
