@@ -6543,6 +6543,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5301383df49accc44b3ed38134522ce3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canTele: 0
 --- !u!212 &569689434
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15572,6 +15573,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7673158e88ead74fbd1eff53cfbdc5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  quests: []
+  text: {fileID: 0}
+  textDisplay: {fileID: 0}
+  panel: {fileID: 0}
+  QuestWindow: {fileID: 0}
+  recallButtonObject: {fileID: 0}
 --- !u!4 &1284562604
 Transform:
   m_ObjectHideFlags: 0
@@ -20142,7 +20149,7 @@ SpriteRenderer:
   m_Size: {x: 7.26, y: 7.38}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1774148876
@@ -21846,6 +21853,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 335bc889f9c85ea48a24cb7b93b8cb14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  panel: {fileID: 0}
+  buttons: {fileID: 0}
+  player: {fileID: 0}
+  QuestLogScript: {fileID: 0}
+  PlayerMovementScript: {fileID: 0}
+  questID: 0
+  questString: 
+  acceptString: 
+  rejectString: 
+  teleporter: {fileID: 0}
+  panelText: {fileID: 0}
 --- !u!61 &1925614923
 BoxCollider2D:
   m_ObjectHideFlags: 0
