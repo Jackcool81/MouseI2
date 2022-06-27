@@ -48,7 +48,7 @@ public class Attack : MonoBehaviour
 				throwableWeapon.GetComponent<ThrowableWeapon>().direction = direction;
 				//throwableWeapon.name = "ThrowableWeapon";
 				cam.GetComponent<CameraFollow>().ShakeCamera();
-				AkSoundEngine.PostEvent("pc_fire", player); //must include specfic name of even
+				// AkSoundEngine.PostEvent("pc_fire", player); //must include specfic name of even
 			}
 		}
 		else

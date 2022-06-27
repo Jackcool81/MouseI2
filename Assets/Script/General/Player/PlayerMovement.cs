@@ -9,6 +9,8 @@ public class PlayerMovement : MonoBehaviour {
 
 	public float runSpeed = 40f;
 	public GameObject player;
+	private Vector2 boxSize = new Vector2(0.1f, 1f);
+
 
 	public float horizontalMove = 0f;
 	bool jump = false;
@@ -20,6 +22,11 @@ public class PlayerMovement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+		if (Input.GetKeyDown(KeyCode.E))
+        {
+            CheckInteraction();
+        }
 
 		horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
 		
@@ -66,4 +73,28 @@ public class PlayerMovement : MonoBehaviour {
 		jump = false;
 		dash = false;
 	}
+
+	private void CheckInteraction()
+    {
+		
+        //using ray casting with box? using array
+        RaycastHit2D[] hits = Physics2D.BoxCastAll(transform.position, boxSize, 0, Vector2.zero);
+        if (hits.Length > 0)
+        {
+            //Line to see if there is something that collides with it 
+            //Hit scan
+            foreach(RaycastHit2D rc in hits)
+            {
+                
+                if (rc.transform.GetComponent<Interactable>())
+                {
+                    rc.transform.GetComponent<Interactable>().Interact();
+                    return;
+                }
+            }
+
+
+        }
+
+    }
 }
